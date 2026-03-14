@@ -5,12 +5,35 @@
   "type": "module",
   "main": "dist/index.js",
   "bin": "dist/index.js",
+  "files": [
+    "dist/",
+    "README.md"
+  ],
   "scripts": {
     "build": "tsc",
-    "dev": "node --loader ts-node/esm src/index.ts"
+    "prepublishOnly": "npm run build"
   },
-  "keywords": ["mcp", "games", "game-discovery", "gameplay-dna", "recommendations"],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "games",
+    "game-discovery",
+    "game-recommendations",
+    "gameplay-dna",
+    "similar-games",
+    "claude",
+    "cursor"
+  ],
+  "author": "Philip Ludington",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PhilipLudington/gamelegend-mcp.git"
+  },
+  "homepage": "https://gamelegend.com/docs/mcp",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0",
     "zod": "^3.0.0"
