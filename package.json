@@ -1,0 +1,22 @@
+{
+  "name": "gamelegend-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for GameLegend — game discovery powered by Gameplay DNA",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "node --loader ts-node/esm src/index.ts"
+  },
+  "keywords": ["mcp", "games", "game-discovery", "gameplay-dna", "recommendations"],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  }
+}
