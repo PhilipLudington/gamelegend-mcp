@@ -1,4 +1,4 @@
-# gamelegend-mcp
+# @gamelegend/mcp
 
 MCP server for [GameLegend](https://gamelegend.com) — game discovery powered by Gameplay DNA.
 
@@ -16,7 +16,7 @@ Search 1,100+ games, explore 69-dimension gameplay profiles, and find similar ga
 ## Install in Claude Code
 
 ```bash
-claude mcp add gamelegend -- npx -y gamelegend-mcp
+claude mcp add gamelegend -- npx -y @gamelegend/mcp
 ```
 
 ## Install in Cursor
@@ -28,7 +28,7 @@ Add to your `.cursor/mcp.json`:
   "mcpServers": {
     "gamelegend": {
       "command": "npx",
-      "args": ["-y", "gamelegend-mcp"]
+      "args": ["-y", "@gamelegend/mcp"]
     }
   }
 }

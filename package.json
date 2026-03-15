@@ -1,6 +1,6 @@
 {
-  "name": "gamelegend-mcp",
-  "version": "1.0.0",
+  "name": "@gamelegend/mcp",
+  "version": "1.0.1",
   "description": "MCP server for GameLegend — game discovery powered by Gameplay DNA",
   "type": "module",
   "main": "dist/index.js",
